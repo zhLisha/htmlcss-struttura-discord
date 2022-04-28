@@ -62,11 +62,11 @@ nav ul li{
     height: 270px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .jumbotron{
     width: 50%;
-    margin: auto;
     height: 220px;
 
     /* TEST */
@@ -75,29 +75,34 @@ nav ul li{
 }
 
 /* MAIN */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .container-content{
     width: 70%;
     height: 100%;
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     align-items: center;
 }
 
 /* CONTAINER WHITE */
-.container-white{
+.white{
     height: 330px;
     background-color: white;
 }
 
 /* CONTAINER GREY */
-.container-grey{
+.grey{
     height: 330px;
     background-color: lightgrey;
 }
 
 /* CONTAINERI GREY BIG */
-.container-grey.big{
+.grey.big{
     height: 600px;
     background-color: lightgrey;
 }
@@ -134,7 +139,7 @@ aside{
 
 /* FOOTER */
 /* SECTION 1 */
-.container-black{
+.black, .black-bottom{
     height: 350px;
     background-color: #23272a;
 }
@@ -176,12 +181,12 @@ aside{
 }
 
 /* SECTION 2 */
-.container-black.bottom{
+.black-bottom{
     height: 60px;
     padding-top: 15px;
 }
 
-.container-black.bottom > .container-content{
+.black-bottom > .container-content{
     justify-content: space-between;
     height: 45px;
     
