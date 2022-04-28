@@ -194,6 +194,7 @@ aside{
 .logo-footer, .bottone{
 
     /* TEST */
+    padding: 1px 5px;
     border: 2px dotted black;
     background-color: #ffb6c1;
     font-size: 13px;
