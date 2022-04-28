@@ -178,7 +178,7 @@ aside{
 /* SECTION 2 */
 .container-black.bottom{
     height: 60px;
-    
+    padding-top: 15px;
 }
 
 .container-black.bottom > .container-content{
