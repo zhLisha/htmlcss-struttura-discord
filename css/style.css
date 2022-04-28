@@ -10,6 +10,10 @@ ul{
     list-style-type: none;
 }
 
+hr{
+    border-color: white;
+}
+
 /* Header */
 /* Head-top */
 .container-header-top{
@@ -29,7 +33,7 @@ ul{
 .logo, nav, .login{
     /* TEST */
     padding: 5px;
-    border: 1px dotted black;
+    border: 2px dotted black;
     background-color: #f0b319;
 }
 
@@ -67,16 +71,22 @@ nav ul li{
 
     /* TEST */
     background-color: #ee82ee;
-    border: 1px dotted black;
+    border: 2px dotted black;
 }
 
 /* MAIN */
 
+.container-content{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
 /* CONTAINER WHITE */
 .container-white{
     height: 330px;
-
-    /* TEST */
     background-color: white;
 }
 
@@ -87,17 +97,9 @@ nav ul li{
 }
 
 /* CONTAINERI GREY BIG */
-.container-grey-big{
+.container-grey.big{
     height: 600px;
     background-color: lightgrey;
-}
-
-.container-content{
-    width: 70%;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    align-items: center;
 }
 
 
@@ -107,6 +109,7 @@ nav ul li{
 
     /* TEST */
     background-color: #1e90ff;
+    border: 2px dotted black;
 }  
 
 aside{
@@ -115,6 +118,7 @@ aside{
 
     /* TEST */
     background-color: #ffc0cb;
+    border: 2px dotted black;
 }
 
 
@@ -125,20 +129,72 @@ aside{
 
     /* testo */
     background-color: #228b22;
+    border: 2px dotted black;
 }
 
 /* FOOTER */
+/* SECTION 1 */
 .container-black{
-    height: 400px;
+    height: 350px;
     background-color: #23272a;
 }
 
+.info-left, .info-right{
+    height: 330px;
+    margin-bottom: 13px;
+}
 
 .info-left{
-    width: 30%;
-    height: 370px;
-    margin-bottom: 13px;
+    width: 35%;
 
     /* TEST */
     background-color: #f08080;
+    border: 2px dotted black;
+}
+
+.info-right{
+    width: 65%;
+
+    /* TEST */
+    background-color: #20b2aa;
+    border: 2px dotted black;
+}
+
+.container-info{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    /* TEST */
+
+}
+
+.text{
+    width: calc(100% / 4);
+    /* TEXT */
+    border: 2px dotted white;
+}
+
+/* SECTION 2 */
+.container-black.bottom{
+    height: 60px;
+    
+}
+
+.container-black.bottom > .container-content{
+    justify-content: space-between;
+    height: 45px;
+    
+    /* TEST */
+    background-color: #7fffd4 ;
+}
+
+
+
+.logo-footer, .bottone{
+
+    /* TEST */
+    border: 2px dotted black;
+    background-color: #ffb6c1;
+    font-size: 13px;
 }
