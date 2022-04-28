@@ -60,7 +60,7 @@ nav ul li{
     align-items: center;
 }
 
-.container-flex-bot{
+.jumbotron{
     width: 50%;
     margin: auto;
     height: 220px;
@@ -68,4 +68,77 @@ nav ul li{
     /* TEST */
     background-color: #ee82ee;
     border: 1px dotted black;
+}
+
+/* MAIN */
+
+/* CONTAINER WHITE */
+.container-white{
+    height: 330px;
+
+    /* TEST */
+    background-color: white;
+}
+
+/* CONTAINER GREY */
+.container-grey{
+    height: 330px;
+    background-color: lightgrey;
+}
+
+/* CONTAINERI GREY BIG */
+.container-grey-big{
+    height: 600px;
+    background-color: lightgrey;
+}
+
+.container-content{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.image{
+    width: 60%;
+    height: 280px;  
+
+    /* TEST */
+    background-color: #1e90ff;
+}  
+
+aside{
+    width: 40%;
+    height: 280px;
+
+    /* TEST */
+    background-color: #ffc0cb;
+}
+
+
+
+.big-image{
+    width: 100%;
+    height: 550px;
+
+    /* testo */
+    background-color: #228b22;
+}
+
+/* FOOTER */
+.container-black{
+    height: 400px;
+    background-color: #23272a;
+}
+
+
+.info-left{
+    width: 30%;
+    height: 370px;
+    margin-bottom: 13px;
+
+    /* TEST */
+    background-color: #f08080;
 }
